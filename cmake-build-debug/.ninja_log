@@ -1,10 +1,16 @@
 # ninja log v5
-2	108	7241644439021567	CMakeFiles/untitled1.dir/main.c.obj	b88a7492e8c0c97f
-2	149	7241645256448778	untitled1.exe	f843410b48c5aee2
 9	102	7241639105400528	CMakeFiles/untitled1.dir/lib.c.obj	171ad3ce8aa0bd5e
-13	105	7241644439001585	CMakeFiles/untitled1.dir/rand_o_hand.c.obj	3b432c9382a7db88
-0	107	7241645349084119	CMakeFiles/file.dir/rand_o_hand.c.obj	b97ae607a30c402d
-5	97	7241645691385561	CMakeFiles/file.dir/lib.c.obj	cca8dac5a26c3e6b
-97	201	7241645692307340	file.exe	d3e2e85ef61a9a90
-2	275	7241710273660460	CMakeFiles/untitled1.dir/main.c.obj	b88a7492e8c0c97f
 2	106	7241710701349262	untitled1.exe	f843410b48c5aee2
+2	275	7241710273660460	CMakeFiles/untitled1.dir/main.c.obj	b88a7492e8c0c97f
+97	201	7241645692307340	file.exe	d3e2e85ef61a9a90
+13	105	7241644439001585	CMakeFiles/untitled1.dir/rand_o_hand.c.obj	3b432c9382a7db88
+5	97	7241645691385561	CMakeFiles/file.dir/lib.c.obj	cca8dac5a26c3e6b
+0	107	7241645349084119	CMakeFiles/file.dir/rand_o_hand.c.obj	b97ae607a30c402d
+1	277	7242292985286061	build.ninja	1dafe3011266b723
+6	1667	7242293003500079	CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/lib.c.obj	2bbd915e024eb756
+1	1670	7242293003510127	CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/main.c.obj	c84f9b0f637d69fc
+1671	2531	7242293011993145	Reinforcement_learning.exe	ddda5054baae921a
+2	93	7242293997102030	CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/lib.c.obj	2bbd915e024eb756
+94	206	7242293998186697	Reinforcement_learning.exe	ddda5054baae921a
+1	85	7242296755947287	CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/main.c.obj	c84f9b0f637d69fc
+86	184	7242296756876332	Reinforcement_learning.exe	ddda5054baae921a

@@ -7,8 +7,17 @@ IF(WIN32)
 ENDIF()
 
 add_executable(untitled1
-        main.c lib.c lib.h)
+        Rock-paper-scissors/main.c
+        Rock-paper-scissors/lib.c
+        Rock-paper-scissors/lib.h)
 
 add_executable(file
-        rand_o_hand.c lib.c lib.h
+        Rock-paper-scissors/rand_o_hand.c
+        Rock-paper-scissors/lib.c
+        Rock-paper-scissors/lib.h
         )
+
+add_executable(Reinforcement_learning
+        Reinforcement_learning/main.c
+        Reinforcement_learning/lib.c
+        Reinforcement_learning/lib.h)

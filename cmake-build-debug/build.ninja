@@ -49,17 +49,17 @@ cmake_ninja_workdir = C$:/Users/mosheng/CLionProjects/test/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled1: phony || CMakeFiles/untitled1.dir
 
-build CMakeFiles/untitled1.dir/main.c.obj: C_COMPILER__untitled1_Debug C$:/Users/mosheng/CLionProjects/test/main.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\main.c.obj.d
+build CMakeFiles/untitled1.dir/Rock-paper-scissors/main.c.obj: C_COMPILER__untitled1_Debug C$:/Users/mosheng/CLionProjects/test/Rock-paper-scissors/main.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Rock-paper-scissors\main.c.obj.d
   FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Rock-paper-scissors
 
-build CMakeFiles/untitled1.dir/lib.c.obj: C_COMPILER__untitled1_Debug C$:/Users/mosheng/CLionProjects/test/lib.c || cmake_object_order_depends_target_untitled1
-  DEP_FILE = CMakeFiles\untitled1.dir\lib.c.obj.d
+build CMakeFiles/untitled1.dir/Rock-paper-scissors/lib.c.obj: C_COMPILER__untitled1_Debug C$:/Users/mosheng/CLionProjects/test/Rock-paper-scissors/lib.c || cmake_object_order_depends_target_untitled1
+  DEP_FILE = CMakeFiles\untitled1.dir\Rock-paper-scissors\lib.c.obj.d
   FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\untitled1.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled1.dir\Rock-paper-scissors
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/untitled1.dir/lib.c.obj: C_COMPILER__untitled1_Debug C$:/Users/
 #############################################
 # Link the executable untitled1.exe
 
-build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/main.c.obj CMakeFiles/untitled1.dir/lib.c.obj
+build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.dir/Rock-paper-scissors/main.c.obj CMakeFiles/untitled1.dir/Rock-paper-scissors/lib.c.obj
   FLAGS = -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled1.dir
@@ -88,17 +88,17 @@ build untitled1.exe: C_EXECUTABLE_LINKER__untitled1_Debug CMakeFiles/untitled1.d
 
 build cmake_object_order_depends_target_file: phony || CMakeFiles/file.dir
 
-build CMakeFiles/file.dir/rand_o_hand.c.obj: C_COMPILER__file_Debug C$:/Users/mosheng/CLionProjects/test/rand_o_hand.c || cmake_object_order_depends_target_file
-  DEP_FILE = CMakeFiles\file.dir\rand_o_hand.c.obj.d
+build CMakeFiles/file.dir/Rock-paper-scissors/rand_o_hand.c.obj: C_COMPILER__file_Debug C$:/Users/mosheng/CLionProjects/test/Rock-paper-scissors/rand_o_hand.c || cmake_object_order_depends_target_file
+  DEP_FILE = CMakeFiles\file.dir\Rock-paper-scissors\rand_o_hand.c.obj.d
   FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\file.dir
-  OBJECT_FILE_DIR = CMakeFiles\file.dir
+  OBJECT_FILE_DIR = CMakeFiles\file.dir\Rock-paper-scissors
 
-build CMakeFiles/file.dir/lib.c.obj: C_COMPILER__file_Debug C$:/Users/mosheng/CLionProjects/test/lib.c || cmake_object_order_depends_target_file
-  DEP_FILE = CMakeFiles\file.dir\lib.c.obj.d
+build CMakeFiles/file.dir/Rock-paper-scissors/lib.c.obj: C_COMPILER__file_Debug C$:/Users/mosheng/CLionProjects/test/Rock-paper-scissors/lib.c || cmake_object_order_depends_target_file
+  DEP_FILE = CMakeFiles\file.dir\Rock-paper-scissors\lib.c.obj.d
   FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\file.dir
-  OBJECT_FILE_DIR = CMakeFiles\file.dir
+  OBJECT_FILE_DIR = CMakeFiles\file.dir\Rock-paper-scissors
 
 
 # =============================================================================
@@ -108,7 +108,7 @@ build CMakeFiles/file.dir/lib.c.obj: C_COMPILER__file_Debug C$:/Users/mosheng/CL
 #############################################
 # Link the executable file.exe
 
-build file.exe: C_EXECUTABLE_LINKER__file_Debug CMakeFiles/file.dir/rand_o_hand.c.obj CMakeFiles/file.dir/lib.c.obj
+build file.exe: C_EXECUTABLE_LINKER__file_Debug CMakeFiles/file.dir/Rock-paper-scissors/rand_o_hand.c.obj CMakeFiles/file.dir/Rock-paper-scissors/lib.c.obj
   FLAGS = -fexec-charset=GBK -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\file.dir
@@ -117,6 +117,45 @@ build file.exe: C_EXECUTABLE_LINKER__file_Debug CMakeFiles/file.dir/rand_o_hand.
   TARGET_FILE = file.exe
   TARGET_IMPLIB = libfile.dll.a
   TARGET_PDB = file.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Reinforcement_learning
+
+
+#############################################
+# Order-only phony target for Reinforcement_learning
+
+build cmake_object_order_depends_target_Reinforcement_learning: phony || CMakeFiles/Reinforcement_learning.dir
+
+build CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/main.c.obj: C_COMPILER__Reinforcement_learning_Debug C$:/Users/mosheng/CLionProjects/test/Reinforcement_learning/main.c || cmake_object_order_depends_target_Reinforcement_learning
+  DEP_FILE = CMakeFiles\Reinforcement_learning.dir\Reinforcement_learning\main.c.obj.d
+  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Reinforcement_learning.dir
+  OBJECT_FILE_DIR = CMakeFiles\Reinforcement_learning.dir\Reinforcement_learning
+
+build CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/lib.c.obj: C_COMPILER__Reinforcement_learning_Debug C$:/Users/mosheng/CLionProjects/test/Reinforcement_learning/lib.c || cmake_object_order_depends_target_Reinforcement_learning
+  DEP_FILE = CMakeFiles\Reinforcement_learning.dir\Reinforcement_learning\lib.c.obj.d
+  FLAGS = -fexec-charset=GBK -g -fdiagnostics-color=always -std=gnu11
+  OBJECT_DIR = CMakeFiles\Reinforcement_learning.dir
+  OBJECT_FILE_DIR = CMakeFiles\Reinforcement_learning.dir\Reinforcement_learning
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Reinforcement_learning
+
+
+#############################################
+# Link the executable Reinforcement_learning.exe
+
+build Reinforcement_learning.exe: C_EXECUTABLE_LINKER__Reinforcement_learning_Debug CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/main.c.obj CMakeFiles/Reinforcement_learning.dir/Reinforcement_learning/lib.c.obj
+  FLAGS = -fexec-charset=GBK -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Reinforcement_learning.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Reinforcement_learning.exe
+  TARGET_IMPLIB = libReinforcement_learning.dll.a
+  TARGET_PDB = Reinforcement_learning.exe.dbg
 
 
 #############################################
@@ -144,6 +183,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build Reinforcement_learning: phony Reinforcement_learning.exe
+
 build file: phony file.exe
 
 build untitled1: phony untitled1.exe
@@ -156,7 +197,7 @@ build untitled1: phony untitled1.exe
 #############################################
 # Folder: C:/Users/mosheng/CLionProjects/test/cmake-build-debug
 
-build all: phony untitled1.exe file.exe
+build all: phony untitled1.exe file.exe Reinforcement_learning.exe
 
 # =============================================================================
 # Built-in targets

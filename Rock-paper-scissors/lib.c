@@ -1,8 +1,10 @@
-#include "lib.h"
+#include "./lib.h"
+
 
 double frand(void) {
         return  (double)rand()/RAND_MAX;
 }
+
 
 int hand(double rate[]) {
         double gu, cyoki, pa;
